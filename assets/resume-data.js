@@ -102,4 +102,4 @@ hobbies: [
  ]
   }
 ]
-console.log(resume)
+
