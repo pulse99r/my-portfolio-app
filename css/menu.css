@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.no-list-items{
+  list-style: none;
+}
+.menuItems{
+  border: 1px solid orangered;
+  border-radius: 5px;
+  margin: 0 2px 0 2px;
+  padding: 0 5px 0 5px;
+}
+menuItems:hover{
+  cursor: pointer;
+}

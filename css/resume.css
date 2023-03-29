@@ -1,3 +1,13 @@
 .resume{
   background-color: cornflowerblue;
 }
+.card{
+  text-align: center;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.card-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2em;
+}
