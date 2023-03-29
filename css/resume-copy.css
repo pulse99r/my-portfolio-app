@@ -1,0 +1,59 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  border: 1% solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5%;
+  width: 90%;
+}
+.container{
+  border: 2px solid black; 
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 2%;
+}
+.nav_list, .links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.nav_item, .links {
+  list-style: none;
+  list-style-type: none;
+  padding: 10px;
+}
+.role {
+  list-style: none;
+  margin-left: -20px;
+}
+.nav_item:hover {
+  
+}
+#my_name{
+  font-size: 300%em;
+}
+#kenti_img{
+  max-width: 35%;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+.objective_container {
+  display: flex;
+  flex-direction: column;
+}
+my_name{
+  font-size: 100px;
+}
+/* - - - - Paragraphs - - - - - */
+.reverse {
+  background: black;
+  color: white;
+}
+.links{
+  width: 100%;
+}
+links>li{
+  margin: 5px;
+  padding: 5px;
+}
