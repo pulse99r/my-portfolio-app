@@ -5,12 +5,31 @@
 .no-list-items{
   list-style: none;
 }
+.menu{
+  justify-content: center;
+  background-color: rgb(37, 34, 34);
+  border: 1px solid orangered;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
 .menuItems{
   border: 1px solid orangered;
   border-radius: 5px;
+  font-size: 12px;
   margin: 0 2px 0 2px;
   padding: 0 5px 0 5px;
+  text-decoration: none;
+  transition: width 2s;
 }
-menuItems:hover{
-  cursor: pointer;
+.menuItems:hover{
+  border: 1px solid orangered;
+  color:chartreuse;
+  font-size: 14px;
+  margin: 0 3px 0 3px;
+  padding: 0 6px 0 6px;
+}
+a, a:link, a:visited{
+  color:cornsilk
 }
