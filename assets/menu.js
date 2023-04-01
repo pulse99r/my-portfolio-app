@@ -6,7 +6,7 @@ const createMenu = (menuItems) => {
   const headerContainer = document.createElement('div')
   headerContainer.setAttribute('class', 'header-container')
   const pgHeader = document.createElement('h1')
-  pgHeader.innerText = "Oh, Yeah...Portfolio!"
+  pgHeader.innerText = "Oh, Yeah ... Portfolio!"
   
   const menuBar = document.createElement('ul');
   menuBar.setAttribute("class", 'menu no-list-items');

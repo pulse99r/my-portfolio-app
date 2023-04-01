@@ -1,4 +1,4 @@
-
+/* basic settings */
 body{
   text-align: center;
   background-color: black;
@@ -7,6 +7,25 @@ body{
   width: 90%;
   margin: auto;
 }
+/* End of basic settings */
+
+/* font stylings */
+body{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h1{
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 60px;
+  font-style: italic;
+  color:cornsilk
+}
+a:visited{
+  color:cornsilk;
+}
+/* End of font stylings */
+
 .head-area>h1{
   line-height: 100px;
 }
@@ -26,7 +45,7 @@ body{
   border: 4px solid rgb(132, 126, 126);
   border-radius: 8px;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 100%;
   justify-content: center;
   width: 100%;
   height: 400px;
@@ -34,7 +53,7 @@ body{
 #artist-image {
   border: 4px solid rgb(86, 84, 84);
   border-radius: 8px;
-  height: 250px;
+  height: 190px;
   margin-top: 0px;
 }
 div.scroll {
@@ -42,7 +61,7 @@ div.scroll {
   border: 4px solid rgb(86, 84, 84);
   border-radius: 8px;
   display: grid;
-  grid-template-columns: 170px 170px 170px ;
+  grid-template-rows: 170px;
   height: 300px;
   justify-content: center;
   margin-left: 10px;
@@ -70,3 +89,4 @@ div.scroll {
   align-items: center;
   width: 100%;
 }
+

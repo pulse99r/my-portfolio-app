@@ -1,0 +1,79 @@
+@media(min-width: 390px){
+  head-container{
+    visibility: none;
+  }
+  div.scroll{
+    display: grid;
+    grid-template-columns: 170px;
+  }
+}
+
+@media(min-width: 768px){
+  .artist{
+    grid-template-columns: 1fr;
+  }
+  .artist-image{
+    max-width: 100px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .album-container{
+    grid-template-columns: 1fr;
+    background-color: black;
+  }
+  div.scroll{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width: 768px){
+  .artist{
+    grid-template-columns: 1fr;
+  }
+  .artist-image{
+    max-width: 100px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .album-container{
+    grid-template-columns: 1fr;
+    background-color: black;
+  }
+  .scroll{
+    grid-template-columns: 1fr;
+  }
+  
+}
+@media(min-width: 912px){
+  .artist{
+    grid-template-columns: 1fr;
+  }
+  .artist-image{
+    max-width: 100px;
+  }
+  .content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+  }
+  .album-container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    width: 90%;
+  }
+  div.scroll{
+    display: grid;
+    grid-template-columns: 170px 170px;
+  }
+  
+}
