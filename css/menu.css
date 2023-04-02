@@ -13,8 +13,8 @@
   width: 
 }
 .menuItems{
-  /* border: 1px solid orangered;
-  border-radius: 5px; */
+  border: 1px solid orangered;
+  border-radius: 5px;
   font-size: 12px;
   margin: 0 2px 0 2px;
   padding: 0 5px 0 5px;
@@ -22,7 +22,7 @@
   transition: width 2s;
 }
 .menuItems:hover{
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   color:chartreuse;
   font-size: 14px;
   margin: 0 3px 0 3px;

@@ -7,21 +7,18 @@ body{
   margin: 5%;
   width: 90%;
 }
-img{
-  max-width:10%;
-}
 .container{
   border: 2px solid black; 
   border-radius: 8px;
   margin-top: 0;
   padding: 2%;
 }
-.nav_list, .links {
+.nav-list, .links {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.nav_item, .links {
+.nav-item, .links {
   list-style: none;
   list-style-type: none;
   padding: 10px;
@@ -30,22 +27,23 @@ img{
   list-style: none;
   margin-left: -20px;
 }
-.nav_item:hover {
-  
+.nav-item:hover {
+  cursor: pointer;
 }
-#my_name{
-  font-size: 300%em;
+#my-name{
+  font-size: 1.7em;
+  text-align: center;
 }
-#kenti_img{
+#kenti-img{
   max-width: 35%;
   border: 1px solid green;
   border-radius: 8px;
 }
-.objective_container {
+.objective-container {
   display: flex;
   flex-direction: column;
 }
-my_name{
+.my_name{
   font-size: 100px;
 }
 /* - - - - Paragraphs - - - - - */
@@ -54,16 +52,27 @@ my_name{
   color: white;
 }
 .links{
-  justify-content: center;
   border: 1px solid orangered;
-  border-radius: 5px;
-  margin: 0 2px 0 2px;
-  padding: 0 2px 0 2px;
-  max-width: 70px;
+  border-radius: 4px;
   font-size: 12px;
+  justify-content: center;
+  margin: 0 2px 0 2px;
+  padding: 3px;
+  width: 96%
 }
-.footer-links{
-  justify-content: left;
+.footer-link{
+  background-color: gray;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  color: cornsilk;
   display: flex;
   flex-direction: row;
+  font-size: 12px;
+  margin: 2px 4px;
+  padding: 0 4px 0 4px;
+  text-decoration: none;
 }
+.footer-link:hover{
+  cursor: pointer;
+}
+

@@ -14,7 +14,8 @@ const createMenu = (menuItems) => {
     let newMenuItem = document.createElement('li');
     if(menuItem === 'Resume'){
       newMenuItem = document.createElement('a');
-      newMenuItem.setAttribute('href','./my_resume.html')
+      newMenuItem.setAttribute("href","./my-resume.html")
+      //assets/my-resume.html
       newMenuItem.innerHTML = 'Resume';
     }
     newMenuItem.setAttribute("class", `menuItems no-list-items ${menuItem}`);
