@@ -61,12 +61,10 @@ let getMovieClick = document.querySelector('#button-click')
 const movieInfo = getMovieClick.addEventListener('click', (event)=>{
   event.preventDefault;
   let movieTitle = document.querySelector('#get-movie').value;
-  console.log('Click Event Happened!', "Title: ", movieTitle)
     fetch(`http://www.omdbapi.com/?t=${movieTitle}&plot=full&apikey=${APIkey}`)
       .then(response => response.json())
       .then(response => displayMovieDetails(response))
       .catch(err => console.error(err));
-      console.log('movieTitle: ==> ',movieTitle)
 })
 
 const createNewElement = (element, attrib, val) => {
@@ -76,7 +74,6 @@ const createNewElement = (element, attrib, val) => {
 }
 
 const displayMovieDetails = (movie) => {
-  console.log(movie)
   let movieResultsDiv = document.querySelector('.movie-results')
 
   //let myMovieObj = (Title,Released,Runtime,Genre,Actors,Plot,Awards,Poster,imdbID) = movie; 
